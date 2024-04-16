@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+
+/*  fonts*/
+:root {
+  --color-primary: #4f257e;
+  --color-secondary: #d6304c;
+  --bg: #f5f7fa;
+  --color-text: #55648f;
+  --color-light: #44b9c7;
+  --nav: #2f4a72;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  direction: rtl;
+}
+
+/* nave  */
+nav {
+  font-size: 20px;
+  /* margin-bottom: 500px; */
+}
+
+.nav .nav-item {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.leftsection h4 {
+  color: white;
+  background-color: var(--color-primary);
+  padding: 0 5px;
+  border-radius: 20px 0;
+}
+
+/* /nave  */
+/* hero  */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 0;
+}
+
+.hero .tx1 {
+  color: var(--color-primary);
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.hero .tx2 {
+  color: var(--color-secondary);
+  margin-top: 10px;
+}
+
+.hero .tx3 {
+  color: var(--color-primary);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* /hero  */
+/* imgsection */
+
+/* /imgsection */
+
+/* about  */
+
+.about {
+  /* padding: 50px 0; */
+  background-color: var(--color-primary);
+  height: 30rem;
+}
+
+.about img {
+  animation: move-up-down 6s infinite;
+  width: 30rem;
+  height: 25rem;
+}
+
+@keyframes move-up-down {
+  0% {
+    transform: translate(0);
+  }
+
+  50% {
+    transform: translate(2.4rem);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+.about h2 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.about p {
+  font-size: 11px;
+  color: #55648f;
+}
+
+.about .tx {
+  margin-top: 8px;
+  color: #fff;
+  background-color: #55648f;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+/* /about  */
+
+/* Sparkl Ai  */
+.sparklai h3 {
+  /* margin-left: 23rem; */
+  font-size: 18px;
+  color: #44b9c7;
+}
+
+.sparklai h4 {
+  font-size: 22px;
+  margin-top: 20px;
+  color: #4f257e;
+}
+
+.sparklai p {
+  font-size: 15px;
+  margin-top: 20px;
+  color: #4f257e;
+  margin-left: 14rem;
+}
+
+.sparklai a {
+  font-size: 15px;
+  margin-top: 20px;
+  color: #fff;
+  margin-left: 20rem;
+  border-radius: 7px;
+}
+
+.sparklai img {
+  animation: move-up-down 6s infinite;
+}
+
+@keyframes move-up-down {
+  0% {
+    transform: translate(0);
+  }
+
+  50% {
+    transform: translate(2.4rem);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+/* /Sparkl Ai  */
+
+/* Spark SL  */
+.sparksL {
+  background-color: #f8f5e7;
+}
+
+.sparksL img {
+  animation: move-up-down 6s infinite;
+}
+
+@keyframes move-up-down {
+  0% {
+    transform: translate(0);
+  }
+
+  50% {
+    transform: translate(2.4rem);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+.sparksL h4 {
+  font-size: 23px;
+  margin-bottom: 10px;
+  color: #4f257e;
+}
+
+.sparksL p {
+  font-size: 15px;
+  color: #4f257e;
+}
+
+.sparksL a {
+  margin-top: 15px;
+  font-size: 13px;
+  border-radius: 7px;
+}
+
+/* /Spark SL  */
+
+/* Services */
+.services h2 {
+  font-size: 42px;
+  padding: 20px 0px;
+  color: #44b9c7;
+}
+
+.services p {
+  font-size: 18px;
+  color: #4f257e;
+}
+
+.services a {
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+/* /Services */
+
+/* Clients */
+.client {
+  background-color: #f5f7fa;
+}
+
+.client h2 {
+  margin-top: 5rem;
+  color: #d6304c;
+  font-size: 20px;
+}
+.client .flex-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.client .img-fluid {
+  display: block;
+  object-fit: cover;
+  text-align: center;
+  padding: 10px 0px;
+  /* padding: 10px 40px; */
+}
+
+/* /Clients */
+/* Products  */
+.product h2 {
+  color: #d6304c;
+  /* padding: 30px 16rem; */
+  font-size: 28px;
+}
+
+.product .tx {
+  font-size: 25px;
+  background-color: #f5f7fa;
+  color: #d6304c;
+}
+
+/* /Products  */
+/* info */
+.info {
+  padding: 50px 70px;
+}
+
+.info img {
+  width: 13rem;
+  height: 6rem;
+}
+
+.info p {
+  font-size: 18px;
+}
+
+/* /info */
+
+/* Footer  */
+.footer p {
+  font-size: 18px;
+}
+
+.footer .iconwraber {
+  font-size: 22px;
+  gap: 5px;
+}
+
+/* /Footer  */
+/* Responsive */
+@media (max-width: 769px) {
+  .leftsection h4 {
+    display: none;
+  }
+
+  nav {
+    font-size: 10px;
+    margin-bottom: 500bx;
+  }
+
+  .nav .nav-item {
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  /* .about {
+    width: 170%;
+  } */
+  .product .sm-screen-wrap {
+    flex-wrap: wrap;
+  }
+  .about {
+    height: 50rem;
+  }
+  .about a {
+    margin-right: 14rem;
+  }
+}
+
+/* Small */
+@media (min-width: 769px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+  /* .container {
+    width: 970px;
+  } */
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  /* .container {
+    width: 1170px;
+  } */
+}
+
+@media (max-width: 320px) {
+  .about img {
+    width: 20rem;
+    height: 16rem;
+  }
+
+  /* .about .tx{
+    width: none; 
+  } */
+}
